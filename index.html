@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Quiz Master PRO</title>
+  </head>
+  <body>
+    <main class="quiz-app">
+      <section id="startScreen" class="intro-card">
+        <p class="label">Quiz Master PRO</p>
+        <h1>Test your JavaScript knowledge</h1>
+        <p class="intro-text">
+          Answer multiple-choice questions, track your progress and see your
+          final score.
+        </p>
+
+        <button id="startBtn" class="primary-btn">Start Quiz</button>
+      </section>
+
+      <section id="quizScreen" class="quiz-card hidden">
+        <div class="quiz-topbar">
+          <span id="questionCounter">Question 1 / 5</span>
+          <span id="scoreCounter">Score: 0</span>
+        </div>
+
+        <div class="progress-track">
+          <div id="progressBar" class="progress-fill"></div>
+        </div>
+
+        <h2 id="questionText">Question text here</h2>
+
+        <div id="answersBox" class="answers-box">
+          <!-- Answers will be rendered here -->
+        </div>
+
+        <div id="feedbackText" class="feedback hidden">Feedback text here</div>
+
+        <button id="nextBtn" class="next-btn hidden">Next Question</button>
+      </section>
+
+      <section id="resultScreen" class="result-card hidden">
+        <p class="label">Quiz Completed</p>
+        <h2 id="finalScore">You scored / 5</h2>
+        <p id="resultMessage">Result message here.</p>
+
+        <button id="restartBtn" class="primary-btn">Restart Quiz</button>
+      </section>
+    </main>
+  </body>
+</html>
