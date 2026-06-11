@@ -6,7 +6,7 @@ Users can start a quiz, answer multiple-choice questions, receive instant feedba
 
 ## 🚀 Live Demo
 
-🔗 Live Demo: https://your-live-demo-link.com
+🔗 Live Demo: [https://your-live-demo-link.com](https://johnyisbackk.github.io/js-quiz-master/)
 
 ## ✨ Features
 
@@ -68,8 +68,6 @@ JavaScript tracks the current question index, user score, and whether an answer 
 * Randomize questions
 * Randomize answer order
 
-## 👨‍💻 Author
 
-Samuel Jahn
 
-Frontend Developer Journey 🚀
+
